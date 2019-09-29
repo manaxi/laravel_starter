@@ -1,0 +1,41 @@
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "config";
+@import "utilities";
+
+//Header & Menu
+@import "mixins";
+@import "menu";
+@import "search";
+@import "featured";
+//Posts
+@import "posts-grid";
+@import "footer";
+@import "post";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $main-font;
+    line-height: 1.6;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+    color: $dark-color;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+img {
+    width: 100%;
+}
